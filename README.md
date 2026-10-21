@@ -198,3 +198,11 @@ HDL.
 raise an issue so the HDL can be corrected before the session.
 
 ---
+
+
+## Contributing
+
+- Never edit `exp6/data/` by hand — regenerate with `gen_vectors.py`
+- `params.vh` is generated, so the RTL and the data cannot drift apart
+- If you change the arithmetic contract, change `bf_golden.py` and the RTL in the same
+  commit, and regenerate the vectors
