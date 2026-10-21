@@ -199,22 +199,6 @@ raise an issue so the HDL can be corrected before the session.
 
 ---
 
-## Slides — status
-
-`slides/` holds the two presentation decks. They were written **before** the code kit and
-quote figures from an earlier 64-channel model:
-
-| | Slides say | This kit gives |
-|---|---|---|
-| Exp 6, 12b/8b/4 delay bits | −70 dB | **−51.1 dB** |
-| Exp 6 channel count | 64 | **8** |
-| Exp 7 knee | cost 72, −70 dB | **cost 166, −57.5 dB** |
-
-**Do not present the slides alongside this kit until they are regenerated.** The manuals
-in `docs/` are authoritative; the slides are not yet consistent with them.
-
----
-
 ## Contributing
 
 - Never edit `exp6/data/` by hand — regenerate with `gen_vectors.py`
